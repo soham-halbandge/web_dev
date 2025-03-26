@@ -1,0 +1,39 @@
+HTML (Hyper text markup language)
+---------------------------------
+
+- helps to structure a document
+
+There are HTML elements to structure a document
+-----------------------------------------------
+
+1. <p> -> paragraph (use to represent a paragraph)
+
+To use HTML elements we use opening and closing tag (for most of the elements). 
+We open and close the tag with < > anchor brackets.
+so, <p> -> opening of paragraph tag and </p> is closing of paragraph tag.
+and inside that content should be wrapped.
+
+2. Heading elements 
+
+<h1> <h2> .... to <h6> : creates a heading h1 being highest size and h6 being the smallest size
+<h1> This is a heading </h1>
+
+Structure of HTML 
+-----------------
+
+<!DOCTYPE html> -> this is to tell browser that we are using html 5 (version)
+<html lang="en"> -> this notifies that html starts from here
+
+<head> -> this gives information and data about the html document
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> -> this will give the title for the title bar present in web browser
+</head>
+
+<body> -> all the actual content goes in the body tag
+   
+    <!-- content goes over here -->
+    
+</body>
+
+</html> -> this notifies that html ends over here
