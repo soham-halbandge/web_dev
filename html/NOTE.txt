@@ -66,3 +66,31 @@ so the word "World" will get printed on new lines since Hello's h1 tag consumed 
 inline elements are laid out by fragmenting in stack of line of boxes
 for e.g. <p>H<sub>2</sub>O</p> -> it gets printed as H2O and here subscript is an inline element
 
+Links in HTML (They are inline in nature)
+-------------
+
+to create links in HTML, we use the <a> tag which is called anchor tag.
+it has attribute alongside with it which controls a behaviour.
+for e.g. <a href="https://www.reddit.com">Go to Reddit</a>
+here a is tag and href is attribute where it will take you to given destination and "Go To Reddit" is the text 
+you will see and once you click on it you will get redirected to that website.
+
+we can link 
+1. to another website 
+2. to another html page 
+3. to another element in the same html page
+4. to default mail application for given email
+5. calling a telephone number
+6. by clicking on img to above 5
+
+for (3),
+<a href="#Section_further_down">Jump to the heading below</a>
+<h2 id="Section_further_down">Section further down</h2>
+
+To load an image in html
+------------------------
+
+using the <img> tag.
+<img src="path_to_image.png" alt="cute image">
+where src is source path to the image and alt is the alternative text to the image if image is not found 
+then it will show the text present in alt attribute (alt is also useful for voice reader as well)
