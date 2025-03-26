@@ -18,6 +18,16 @@ and inside that content should be wrapped.
 <h1> <h2> .... to <h6> : creates a heading h1 being highest size and h6 being the smallest size
 <h1> This is a heading </h1>
 
+3. strong <strong> -> it will display as bold text. Useful for adding emphasis (mostly useful for screen readers)
+
+4. <b> (Bring attention to element) -> it wil display also as bold text. 
+
+5. <em> (emphasis) -> stress emphasis relative to surrounding text. Most browser will render it as italics. 
+
+6. <sup> -> used as a superscript for e.g. 4th here th is written on top of 4
+
+7. <sub> -> used as a subscript for e.g. H2O here 2 is written at bottom of H 
+
 Structure of HTML 
 -----------------
 
@@ -37,3 +47,22 @@ Structure of HTML
 </body>
 
 </html> -> this notifies that html ends over here
+
+Lists in HTML
+-------------
+
+1. Unordered List <ul>
+2. Ordered List <ol>
+
+and we use <li> to provide the list items.
+
+Block vs Inline elements  
+-------------------------
+
+block elements consumes the entire block. 
+for e.g. <h1>Hello</h1><h1>World</h1>
+so the word "World" will get printed on new lines since Hello's h1 tag consumed whole 1st block 
+
+inline elements are laid out by fragmenting in stack of line of boxes
+for e.g. <p>H<sub>2</sub>O</p> -> it gets printed as H2O and here subscript is an inline element
+
