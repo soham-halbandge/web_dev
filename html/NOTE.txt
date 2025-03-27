@@ -94,3 +94,16 @@ using the <img> tag.
 <img src="path_to_image.png" alt="cute image">
 where src is source path to the image and alt is the alternative text to the image if image is not found 
 then it will show the text present in alt attribute (alt is also useful for voice reader as well)
+
+tables in html
+--------------
+
+we create table using <table> tag
+we use <tr> to create table rows
+we use <td> to create table data 
+we use <th> to create table head
+we use <thead>, <tbody> and <tfoot> to header, body and footer (useful for screen reader and styling)
+we use <caption> to give title to the table
+
+we use colspan as an property/attribute -> this occupies space across multiple columns of the table 
+we use rowspan as an property/attribute -> this occupies space across multiple rows of the table 
