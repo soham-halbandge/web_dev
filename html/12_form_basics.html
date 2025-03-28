@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Basics</title>
+</head>
+
+<body>
+    <h1>Form Basics</h1>
+
+    <form action="/login">
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button type="submit">Log Me In</button>
+    </form>
+
+    <h2>Input elements</h2>
+    <form>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter your Email" id="email" required>
+
+        <label for="Linkedin">Linkedin Profile</label>
+        <input type="url" name="url" placeholder="Enter your Linkedin Profile" id="Linkedin" required>
+        <button>Submit</button>
+    </form>
+
+    <h2>The Name Attribute</h2>
+    <form action=''>
+        <label for="city">City:</label>
+        <input type="text" name="us_city" id=city placeholder="Enter City">
+
+        <label for="state">State:</label>
+        <input type="text" name="us_state" id=state placeholder="Enter State">
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html> 

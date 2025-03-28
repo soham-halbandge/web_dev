@@ -107,3 +107,26 @@ we use <caption> to give title to the table
 
 we use colspan as an property/attribute -> this occupies space across multiple columns of the table 
 we use rowspan as an property/attribute -> this occupies space across multiple rows of the table 
+
+forms in html
+--------------
+
+<input type="text"> is for text field
+
+to use forms
+<form action="/signup" method="get"> 
+    <!-- content goes here -->
+</form>
+
+action -> where the form data is sent 
+method -> what http 'verb' is used
+
+we use <button> to create button
+we can also use <input type="submit"> to create button 
+
+labels for form
+---------------
+<label for="username">Enter your username</label>
+<input type="text" id="username">
+
+to make field mandatory in form (use `required` as attribute)
