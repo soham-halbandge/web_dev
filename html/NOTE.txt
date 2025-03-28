@@ -130,3 +130,8 @@ labels for form
 <input type="text" id="username">
 
 to make field mandatory in form (use `required` as attribute)
+
+Textareas in forms
+------------------
+
+<textarea rows="1" cols="5"> </textarea>
