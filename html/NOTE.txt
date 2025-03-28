@@ -135,3 +135,14 @@ Textareas in forms
 ------------------
 
 <textarea rows="1" cols="5"> </textarea>
+
+-------
+<span> is an inline element and it is useful when doing styling with CSS.
+<div> is block element and it is useful when doing styling with CSS. (But it is used to group the content together)
+-------
+
+we can add audio in html 
+using <audio src="" controls> tag and src is the attribute to the path to the audio file and controls is the attribute to control the audio player.
+
+we can add video in html
+using <video src="" controls> tag and src is the attribute to the path to the video file and controls is the attribute to control the video player.
